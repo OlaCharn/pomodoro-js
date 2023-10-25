@@ -1,0 +1,54 @@
+body{
+    background-color: #f1c40f;
+}
+.pic{
+    display: flex;
+    justify-content: center;
+
+}
+.header{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.timerWork{
+    font-size: 100px;
+    font-family: 'Lato', sans-serif;
+}
+.timerBreak{
+    font-size: 100px;
+    font-family: 'Lato', sans-serif;
+}
+.container_item{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.container_btn{
+    display: flex;
+    justify-content: center;
+}
+button{
+    font-family: 'Lato', sans-serif;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bolder;
+    background-color: white;
+}
+button:hover{
+    background-color: #f1c40f;
+}
+.containerReload{
+    display: flex;
+    justify-content: center;
+
+}
+.buttonReload{
+    background-color: transparent;
+    border: none;
+}
